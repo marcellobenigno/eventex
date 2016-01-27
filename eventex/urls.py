@@ -18,5 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^$', 'eventex.core.views.home'),
+    url(r'^incricao/$', subscribe),
     url(r'^admin/', admin.site.urls),
 ]
